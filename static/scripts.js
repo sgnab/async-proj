@@ -14,7 +14,7 @@ $(document).ready(function(){
         $('.'+car_id).click(function () {
             var model_id=this.id;
             $.ajax({
-                url:"https://api.mlab.com/api/1/databases/car_models/collections/cars?apiKey=nLpPIkExIzD45P9OyqCYrLS8JVtpBHlS",
+                url:"https://api.mlab.com/api/1/databases/car_models/collections/cars?apiKey=",
                 type:"GET",
                 data:{ get_param: 'value' },
                 dataType:'json',
